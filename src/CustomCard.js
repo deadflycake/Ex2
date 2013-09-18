@@ -15,6 +15,8 @@ Ext.define('App.MyCard', {
     },
     
     initComponent:function(){
+        this.addField("Tags");
+        this.addField("Parent");
         if(this.record.get("Parent")) {
             console.log(this.record.get("FormattedID"));
             console.log(this.record.get("Parent"));

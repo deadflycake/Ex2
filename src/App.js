@@ -12,7 +12,7 @@ Ext.define('CustomApp', {
             attribute: "ScheduleState", 
             cardConfig:{
                 xtype: 'customcard'
-            },
+             },
             columns: [{
                 xtype: 'rallycardboardcolumn',
                 value: 'Defined'
@@ -20,7 +20,7 @@ Ext.define('CustomApp', {
             {   xtype: 'rallycardboardcolumn',
                 value: 'Completed'
             }]
-        };
+         };
 
         this.add(cardBoardConfig);
     }
