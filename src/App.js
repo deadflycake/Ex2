@@ -9,7 +9,7 @@ Ext.define('CustomApp', {
         var cardBoardConfig = {
             xtype: 'rallycardboard',
             types: ['User Story', 'Defect'],
-            attribute: "ScheduleState",
+            attribute: "ScheduleState", 
             cardConfig:{
                 xtype: 'customcard'
             }
