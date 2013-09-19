@@ -23,6 +23,7 @@ Ext.define('App.MyCard', {
             this.addCls("parented");
         }
         this.callParent(arguments);
+        console.log(this.record.data)
     }
     
     
